@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    background-color: #111827;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.sub-container {
+    display: flex;
+    justify-content: space-around;
+    color: red;
+}
+
+.pointcontainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+#home-score {
+    width: 155px;
+    height: 120px;
+    left: 82px;
+    font-family: 'Cursed timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#guest-score {
+    width: 155px;
+    height: 120px;
+    left: 82px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.home-point {
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    height: 45px;
+    align-items: center;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+.guest-point {
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    height: 45px;
+    align-items: center;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+#score1home {
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+    text-align: center;
+    align-items: center;
+    color: white;
+    padding: 5px 0 0 0;
+}
+#score2home {
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+    text-align: center;
+    align-items: center;
+    color: white;
+    padding: 5px 0 0 0;
+}
+#score3home {
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+    text-align: center;
+    align-items: center;
+    color: white;
+    padding: 5px 0 0 0;
+}
+#score1guest {
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+    text-align: center;
+    align-items: center;
+    color: white;
+    padding: 5px 0 0 0;
+}
+#score2guest {
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+    text-align: center;
+    align-items: center;
+    color: white;
+    padding: 5px 0 0 0;
+}
+#score3guest {
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+    text-align: center;
+    align-items: center;
+    color: white;
+    padding: 5px 0 0 0;
+}
+
+#reset {
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    margin: 50px 250px 0 250px;
+    height: 40px;
+    align-items: center;
+    text-align: center;
+    padding-top: 25px;
+    background-color: white;
+    font-family: 'Cursed Timer ULiL';
+    font-style: bold;
+    font-weight: 400;
+    font-size: 18px;
+}
